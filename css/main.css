@@ -1,0 +1,16 @@
+/*CSS Items For Portfolio*/
+body {
+	background-image: url("../memphis.png"); 
+	background-size: 1600px 800px;
+	background-position:top center;
+background-attachment:fixed;
+background-repeat:no-repeat;
+
+	
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+   }
