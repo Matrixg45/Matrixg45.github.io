@@ -5,8 +5,13 @@ body {
 	background-position:top center;
 background-attachment:fixed;
 background-repeat:no-repeat;
-font-family: 'Poiret One Regualr','Gotham Rounded A', 'Gotham Rounded B', "proxima-nova-soft" ;
+color: white; 
+font-size: 20px;
 
+}
+.brief-description {
+    color: white;
+    font-family: verdana;
 }
 }
 h1 {
@@ -34,11 +39,10 @@ p {
     border: 5px ;
     border-width: 2px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-align: right;
     letter-spacing: 3px;
-    font-family: 'Poiret One Regualr','Gotham Rounded A', 'Gotham Rounded B', "proxima-nova-soft";
 }
 
 p.outset {border-style: outset;}
@@ -56,6 +60,13 @@ p.outset {border-style: outset;}
     padding: 0 20px;
     overflow: hidden;
     height: 50px;
+}
+.main-nav p {
+    font-family: "Avant Garde", sans-serif; 
+color: white; 
+font-size: 23px;
+  font-variant: small;
+
 }
 
 .main-nav a {
