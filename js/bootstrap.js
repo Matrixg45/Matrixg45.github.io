@@ -2361,3 +2361,20 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+$(document).ready(function(e) {
+        var imgs = document.getElementsByTagName('img');
+        var imgLength = imgs.length;
+
+        for(var i=0; i<= imgLength-1;i++){
+
+            var imgWidth = imgs[i].clientWidth;
+            var imgHeight = imgs[i].clientHeight;
+
+            $('img').eq(i).attr({width:imgWidth/2, height: imgHeight/2});
+
+            console.log(imgWidth);
+        }
+
+        console.log(imgLength); 
+
+    });
