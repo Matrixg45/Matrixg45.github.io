@@ -4,8 +4,23 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Quicksand-Book.otf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/GeosansLight.ttf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/miso-light.ttf);
+}
+
+
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: myFirstFont;
     background: url('../img/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,6 +28,10 @@ body {
     -o-background-size: cover;
 }
 
+.btn:hover{
+background-color: #cc33ff;
+color: white;
+}
 h1,
 h2,
 h3,
@@ -20,7 +39,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: mySecondFont;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -41,6 +60,17 @@ hr {
     display: none;
 }
 
+.navbar-nav:hover{
+background-color: #cc33ff;
+font-color: white;
+border-radius: 10px;
+font-size: 25px;
+}
+.intro-text:hover{
+background-color: #cc33ff;
+color: white;
+border-radius: 10px;
+}
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
@@ -119,8 +149,8 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
+        font-family: myThirdFont;
+        font-size: 50px;
         font-weight: 700;
         line-height: normal;
         color: #fff;
