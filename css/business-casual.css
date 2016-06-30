@@ -29,8 +29,12 @@ body {
 }
 
 .btn:hover{
-background-color: #cc33ff;
+background-color: #660033;
 color: white;
+webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 h1,
 h2,
@@ -58,18 +62,31 @@ hr {
 .brand,
 .description {
     display: none;
+    font-size:10px;
 }
 
-.navbar-nav:hover{
-background-color: #cc33ff;
-font-color: white;
-border-radius: 10px;
-font-size: 25px;
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #660033;
+color: white;
+border-radius: 100px;
+-webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+.navbar-nav li:hover{
+    background-color: #660033;
+    border-radius: 10px;
+    font-size: 18.boxpx;
 }
 .intro-text:hover{
-background-color: #cc33ff;
+background-color: #660033;
 color: white;
 border-radius: 10px;
+webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 .navbar-brand {
     text-transform: uppercase;
@@ -108,7 +125,10 @@ border-radius: 10px;
 }
 
 .box {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
