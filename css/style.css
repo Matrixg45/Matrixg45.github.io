@@ -42,7 +42,7 @@ body {
   transition: all .2s ease-out;
 }
 .icon a:hover {
-  background-color: #222;
+  background-color: #660033;
   background-size: 0%;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
@@ -50,10 +50,11 @@ body {
 
 .icon__name {
   position: absolute;
+  
   top: 50%;
   width: 100%;
   margin-top: -7px;
-  color: #fff;
+  color: #ff9900;
   font-size: 13px;
   text-align: center;
   -webkit-transition: all .3s ease-out;
