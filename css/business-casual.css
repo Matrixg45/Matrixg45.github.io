@@ -553,3 +553,36 @@ border-color:30px solid #660033;
   font-family: sans-serif;
  
 }
+body{
+  text-align: center;
+}
+#end{
+  display:none;
+}
+#reset{
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px auto 10px auto;
+  font-family:impact;
+}
+#reset:hover{
+  color:white;
+  background-color:#003300; 
+  border:2px solid purple;
+}
+#turn{
+  text-align: center;
+  font-size: 25px;
+  font-family:sans-serif;
+    color:#003300;
+  font-weight: 900px;
+}
+table{
+  margin: auto;
+  border: solid purple;
+}
+td{
+  padding: 10px ;
+  font-size: 200%;
+}
