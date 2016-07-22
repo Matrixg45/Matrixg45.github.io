@@ -553,9 +553,7 @@ border-color:30px solid #660033;
   font-family: sans-serif;
  
 }
-body{
-  text-align: center;
-}
+
 #end{
   display:none;
 }
@@ -574,15 +572,64 @@ body{
 #turn{
   text-align: center;
   font-size: 25px;
-  font-family:sans-serif;
-    color:#003300;
+  font-family:inherit;
+    color:#330066;
   font-weight: 900px;
 }
 table{
   margin: auto;
   border: solid purple;
+  background-color:white;
 }
 td{
   padding: 10px ;
   font-size: 200%;
+}
+
+
+#head45{
+  width:200px;
+ height:200px;
+ border:2px solid purple;
+  background-color:#00cccc;
+  position:relative;
+   border-radius:75px;
+}
+#head45:hover{
+  solid: black;
+}
+#eye145{
+  width:25px;
+ height:25px;
+ background-color:white;
+  border-radius:20px;
+  margin: 50px 0px 0px 75px;
+
+}
+#eye245 {
+  width:25px;
+ height:25px;
+ background-color:white;
+  border-radius:20px;
+  margin: 20px 0px 0px -150px;
+}
+
+
+ .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+.carousel-caption{
+  font-size:30px;
+  letter-spacing: 2px;
+  font-family:inherit;
+  color: #ffa31a;
+
+}
+.carousel-caption1{
+   font-size:30px;
+  letter-spacing: 2px;
+  font-family:inherit;
+  color: #330066;
+
 }
